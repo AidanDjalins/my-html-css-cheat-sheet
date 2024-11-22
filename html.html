@@ -11,23 +11,24 @@
     </style>
     <body>
         <section>
-            <div class="html-home-button">
+            <div class="home-button">
                 <a href="./index.html">
                     <img src="./resources/home-button.png" alt="home">
                 </a>
             </div>
-            <header style="margin: 0; padding: 0;">
-                <h1>HTML Headings</h1>
+            <header>
+                <h1>HTML</h1>
             </header>
         </section>
 
         <section>
-            <article class="html-description">
+            <h2 class="topic-title">Headings</h2>
+            <article class="description">
                 </p>
                 HTML provides six heading tags: `h1` to `h6`. The `h1` tag is the largest and most important, typically used for main titles, 
                     while `h6` is the smallest, for minor headings. As the number increases, the heading size decreases, allowing for a structured content hierarchy.
                 </p>
-                <h2>Let's look at  the different heading tags below:</h2>
+                <h2 style="padding-top: 15px;">Let's look at the different heading tags below:</h2>
             </article>
         </section>
         <table>
@@ -64,5 +65,53 @@
                 </tr>
             </tbody>
         </table>
+
+        <section>
+            <h2 class="topic-title">Semantics</h2>
+            <article class="description">
+                <p>
+                    HTML semantics refer to the use of HTML tags that convey meaning about 
+                    the type of content within them, helping both developers and browsers 
+                    understand the structure<br> and purpose of the content. <br><br>Semantic HTML 
+                    elements are descriptive and improve accessibility and readability of code.
+                </p>
+                <h2 style="padding-top: 15px;">Let's look at the different semantic types below:</h2>
+            </article>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Semantic</th>
+                        <th scope="col">Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;header&gt;</code></td>
+                        <td><p>Introductory content, header of the site</p></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;section&gt;</code></td>
+                        <td><p>Generic standalone section of a document</p></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;article&gt;</code></td>
+                        <td><p>Self-contained composition of a site</p></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;figure&gt;</code></td>
+                        <td><p>Self-contained content within the site, optionally with a caption</p></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;figcaption&gt;</code></td>
+                        <td><p>Said caption of the aforementioned figure</p></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;nav&gt;</code></td>
+                        <td><p>Provides navigation, either within the document or to other documents</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </body>    
 </html>
